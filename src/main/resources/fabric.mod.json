@@ -5,14 +5,14 @@
   "name": "FabricHomes",
   "description": "FabricHomes is a small, server-side Fabric mod that adds /home command and its counterparts",
   "authors": [
-    "CodedSakura"
+    "CodedSakura",
+    "Kentakoong"
   ],
   "contact": {
-    "website": "http://mods.codedsakura.eu",
-    "homepage": "http://codedsakura.eu",
-    "sources": "https://github.com/CodedSakura/FabricHomes",
-    "repo": "https://github.com/CodedSakura/FabricHomes",
-    "issues": "https://github.com/CodedSakura/FabricHomes/issues"
+    "website": "http://inedible.dev",
+    "sources": "https://github.com/Kentakoong/FabricHomes",
+    "repo": "https://github.com/Kentakoong/FabricHomes",
+    "issues": "https://github.com/Kentakoong/FabricHomes/issues"
   },
   "license": "ISC",
   "icon": "assets/FabricHomes/icon.png",
