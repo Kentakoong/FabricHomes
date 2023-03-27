@@ -1,15 +1,15 @@
-package eu.codedsakura.fabrichomes;
+package com.kentakoong.fabrichomes;
 
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.suggestion.Suggestions;
 import com.mojang.brigadier.suggestion.SuggestionsBuilder;
-import eu.codedsakura.fabrichomes.components.HomeComponent;
-import eu.codedsakura.mods.ConfigUtils;
-import eu.codedsakura.mods.TeleportUtils;
-import eu.codedsakura.mods.TextUtils;
-import eu.codedsakura.mods.fpapiutils.FPAPIUtilsWrapper;
+import com.kentakoong.fabrichomes.components.HomeComponent;
+import com.kentakoong.mods.ConfigUtils;
+import com.kentakoong.mods.TeleportUtils;
+import com.kentakoong.mods.TextUtils;
+import com.kentakoong.mods.fpapiutils.FPAPIUtilsWrapper;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.fabricmc.loader.api.FabricLoader;
@@ -27,7 +27,7 @@ import java.time.Instant;
 import java.util.*;
 import java.util.concurrent.CompletableFuture;
 
-import static eu.codedsakura.fabrichomes.components.PlayerComponentInitializer.HOME_DATA;
+import static com.kentakoong.fabrichomes.components.PlayerComponentInitializer.HOME_DATA;
 import static net.minecraft.server.command.CommandManager.argument;
 import static net.minecraft.server.command.CommandManager.literal;
 

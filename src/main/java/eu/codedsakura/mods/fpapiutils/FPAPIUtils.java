@@ -1,4 +1,4 @@
-package eu.codedsakura.mods.fpapiutils;
+package com.kentakoong.mods.fpapiutils;
 
 import me.lucko.fabric.api.permissions.v0.Permissions;
 import net.minecraft.server.command.ServerCommandSource;

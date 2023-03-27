@@ -1,4 +1,4 @@
-package eu.codedsakura.fabrichomes.components;
+package com.kentakoong.fabrichomes.components;
 
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.server.MinecraftServer;
@@ -7,7 +7,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.Vec3d;
 
-import static eu.codedsakura.mods.TextUtils.valueRepr;
+import static com.kentakoong.mods.TextUtils.valueRepr;
 
 public class HomeComponent implements INamedDirectionalPointComponent {
     private double x, y, z;

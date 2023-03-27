@@ -1,4 +1,4 @@
-package eu.codedsakura.fabrichomes.components;
+package com.kentakoong.fabrichomes.components;
 
 import dev.onyxstudios.cca.api.v3.component.ComponentKey;
 import dev.onyxstudios.cca.api.v3.component.ComponentRegistryV3;

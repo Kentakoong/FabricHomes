@@ -1,4 +1,4 @@
-package eu.codedsakura.mods.fpapiutils;
+package com.kentakoong.mods.fpapiutils;
 
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.server.command.ServerCommandSource;

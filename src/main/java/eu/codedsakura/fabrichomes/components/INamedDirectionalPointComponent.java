@@ -1,4 +1,4 @@
-package eu.codedsakura.fabrichomes.components;
+package com.kentakoong.fabrichomes.components;
 
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.text.MutableText;

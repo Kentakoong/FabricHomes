@@ -19,14 +19,16 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "eu.codedsakura.fabrichomes.FabricHomes"
+      "com.kentakoong.fabrichomes.FabricHomes"
     ],
     "cardinal-components-entity": [
-      "eu.codedsakura.fabrichomes.components.PlayerComponentInitializer"
+      "com.kentakoong.fabrichomes.components.PlayerComponentInitializer"
     ]
   },
   "custom": {
-    "cardinal-components": ["fabrichomes:homes"]
+    "cardinal-components": [
+      "fabrichomes:homes"
+    ]
   },
   "depends": {
     "fabricloader": "*",

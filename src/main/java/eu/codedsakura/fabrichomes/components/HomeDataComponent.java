@@ -1,4 +1,4 @@
-package eu.codedsakura.fabrichomes.components;
+package com.kentakoong.fabrichomes.components;
 
 import net.fabricmc.fabric.api.util.NbtType;
 import net.minecraft.nbt.NbtCompound;

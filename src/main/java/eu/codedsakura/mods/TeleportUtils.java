@@ -1,4 +1,4 @@
-package eu.codedsakura.mods;
+package com.kentakoong.mods;
 
 import net.minecraft.entity.boss.BossBar;
 import net.minecraft.entity.boss.CommandBossBar;
