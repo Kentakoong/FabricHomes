@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "fabrichomes",
+  "version": "${version}",
+  "name": "FabricHomes",
+  "description": "FabricHomes is a small, server-side Fabric mod that adds /home command and its counterparts",
+  "authors": [
+    "CodedSakura",
+    "Kentakoong"
+  ],
+  "contact": {
+    "website": "http://inedible.dev",
+    "sources": "https://github.com/Kentakoong/FabricHomes",
+    "repo": "https://github.com/Kentakoong/FabricHomes",
+    "issues": "https://github.com/Kentakoong/FabricHomes/issues"
+  },
+  "license": "ISC",
+  "icon": "assets/FabricHomes/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kentakoong.fabrichomes.FabricHomes"
+    ],
+    "cardinal-components-entity": [
+      "com.kentakoong.fabrichomes.components.PlayerComponentInitializer"
+    ]
+  },
+  "custom": {
+    "cardinal-components": [
+      "fabrichomes:homes"
+    ]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "1.19.x"
+  }
+}
